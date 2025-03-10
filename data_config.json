@@ -1,0 +1,98 @@
+{
+    "basic_fields": [
+      {
+        "name": "Name",
+        "xpath": "//h2",
+        "drupal_field": "title"
+      },
+      {
+        "name": "Address",
+        "xpath": "//div[@class='hospital_address']",
+        "drupal_field": "field_address"
+      },
+      {
+        "name": "City",
+        "xpath": "//div[@class='hospital_address']",
+        "drupal_field": "field_city",
+        "processing": "split_address",
+        "index": -2
+      },
+      {
+        "name": "State",
+        "xpath": "//div[@class='hospital_address']",
+        "drupal_field": "field_state",
+        "processing": "split_address",
+        "index": -1
+      },
+      {
+        "name": "Pincode",
+        "xpath": "//div[@class='hospital_address']",
+        "drupal_field": "field_pincode",
+        "processing": "split_address",
+        "index": -1,
+        "post_process": "extract_pincode"
+      },
+      {
+        "name": "Phone",
+        "xpath": "//div[@class='hospital_phone']",
+        "drupal_field": "field_phone"
+      },
+      {
+        "name": "Website",
+        "xpath": "//a[contains(@href, 'http')]",
+        "drupal_field": "field_website",
+        "attribute": "href"
+      },
+      {
+        "name": "Hospital Details URL",
+        "xpath": "//h2/a",
+        "attribute": "href"
+      }
+    ],
+    "detailed_fields": [
+      {
+        "name": "Email",
+        "xpath": "//div[contains(text(), 'Email')]",
+        "drupal_field": "field_email",
+        "optional": true
+      },
+      {
+        "name": "Specialties",
+        "xpath": "//div[contains(text(), 'Specialties')]",
+        "drupal_field": "field_specialties",
+        "optional": true
+      },
+      {
+        "name": "Number of Beds",
+        "xpath": "//div[contains(text(), 'Beds')]",
+        "drupal_field": "field_num_beds",
+        "optional": true
+      },
+      {
+        "name": "Doctors",
+        "xpath": "//div[@class='doctor_name']",
+        "drupal_field": "field_doctors",
+        "multiple": true
+      },
+      {
+        "name": "Consultation Fee",
+        "xpath": "//div[contains(text(), 'Consultation Fee')]",
+        "drupal_field": "field_consultation_fee",
+        "optional": true
+      },
+      {
+        "name": "Timings",
+        "xpath": "//div[contains(text(), 'Timings')]",
+        "drupal_field": "field_timings",
+        "optional": true
+      },
+      {
+        "name": "Google Maps Link",
+        "xpath": "//a[contains(@href, 'maps.google.com')]",
+        "drupal_field": "field_google_maps",
+        "attribute": "href",
+        "optional": true
+      }
+    ]
+  }
+  

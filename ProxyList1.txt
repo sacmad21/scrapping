@@ -1,0 +1,25 @@
+http://user:pass@proxy1.com:8080
+http://user:pass@proxy2.com:8080
+http://user:pass@proxy3.com:8080
+...
+http://user:pass@proxy100.com:8080
+
+
+http://67.43.228.251:14791	14791	CA	Canada	elite proxy	no	yes	3 secs ago
+8.215.108.194	7777	ID	Indonesia	elite proxy	no	yes	3 secs ago
+45.89.65.240	3128	RU	Russian Federation	elite proxy	no	yes	3 secs ago
+154.0.14.116	3128	ZA	South Africa	anonymous	no	yes	3 secs ago
+47.251.43.115	33333	US	United States	anonymous	no	yes	3 secs ago
+
+67.43.228.251	14791	CA	Canada	elite proxy	no	yes	3 secs ago
+8.215.108.194	7777	ID	Indonesia	elite proxy	no	yes	3 secs ago
+45.89.65.240	3128	RU	Russian Federation	elite proxy	no	yes	3 secs ago
+154.0.14.116	3128	ZA	South Africa	anonymous	no	yes	3 secs ago
+47.251.43.115	33333	US	United States	anonymous	no	yes	3 secs ago
+103.186.193.135	8080	ID	Indonesia	elite proxy		no	11 secs ago
+128.199.202.122	3128	SG	Singapore	anonymous	no	no	11 secs ago
+13.38.153.36	80	FR	France	elite proxy		no	11 secs ago
+13.37.89.201	80	FR	France	elite proxy		yes	11 secs ago
+13.37.59.99	3128	FR	France	elite proxy	no	yes	11 secs ago
+66.191.31.158	80	US	United States	anonymous	no	no	11 secs ago
+37.187.25.85	80	FR	France	elite proxy	no	yes	
